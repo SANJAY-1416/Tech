@@ -1,3 +1,7 @@
+// import Image from "next/image";
+
+// import Header from "./Components/Header/header";
+
 import { AppProps } from "next/app";
 import "./globals.css";
 import Header from "./Components/Header/header";
