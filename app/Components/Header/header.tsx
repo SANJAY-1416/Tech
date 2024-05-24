@@ -9,18 +9,18 @@ const Header: React.FC = () => {
       <nav>
         <ul style={navStyle}>
           <li style={liStyle}>
-            <Link href="/">
-              <a style={linkStyle}>Home</a>
+            <Link href="/" style={linkStyle}>
+              Home
             </Link>
           </li>
           <li style={liStyle}>
-            <Link href="/about">
-              <a style={linkStyle}>About</a>
+            <Link href="/about" style={linkStyle}>
+              About
             </Link>
           </li>
           <li style={liStyle}>
-            <Link href="/contact">
-              <a style={linkStyle}>Contact</a>
+            <Link href="/contact" style={linkStyle}>
+              Contact
             </Link>
           </li>
         </ul>
