@@ -1,6 +1,6 @@
 /* styles/globals.css */
 
-header {
+/* header {
   background: #333;
   padding: 1rem;
 }
@@ -18,4 +18,21 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+} */
+.Header {
+  background: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  padding: 4px;
+}
+.header-text {
+  color: white;
+  font-weight: 800;
+}
+.header-links {
+  display: flex;
+  gap: 6px;
+  font-weight: 600;
 }
