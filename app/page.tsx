@@ -1,11 +1,16 @@
 // import Image from "next/image";
 
+import { AppProps } from "next/app";
+import "./globals.css";
 import Header from "./Components/Header/header";
 
-export default function Home() {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <Component {...pageProps} />
+    </>
   );
 }
+
+export default MyApp;
