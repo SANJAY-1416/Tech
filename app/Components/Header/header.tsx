@@ -5,28 +5,28 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    // <header style={headerStyle}>
-    //   <nav>
-    //     <ul style={navStyle}>
-    //       <li style={liStyle}>
-    //         <Link href="/" style={linkStyle}>
-    //           Home
-    //         </Link>
-    //       </li>
-    //       <li style={liStyle}>
-    //         <Link href="/about" style={linkStyle}>
-    //           About
-    //         </Link>
-    //       </li>
-    //       <li style={liStyle}>
-    //         <Link href="/contact" style={linkStyle}>
-    //           Contact
-    //         </Link>
-    //       </li>
-    //     </ul>
-    //   </nav>
-    // </header>
-    <h1>sanjay</h1>
+    <header style={headerStyle}>
+      <nav>
+        <ul style={navStyle}>
+          <li style={liStyle}>
+            <Link href="/" style={linkStyle}>
+              Home
+            </Link>
+          </li>
+          <li style={liStyle}>
+            <Link href="/about" style={linkStyle}>
+              About
+            </Link>
+          </li>
+          <li style={liStyle}>
+            <Link href="/contact" style={linkStyle}>
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    // <h1>sanjay</h1>
   );
 };
 
