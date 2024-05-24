@@ -24,6 +24,7 @@ const Header: React.FC = () => {
             </Link>
           </li>
         </ul>
+        <p>sanjay</p>
       </nav>
     </header>
   );
