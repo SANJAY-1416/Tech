@@ -25,8 +25,8 @@ const Header: React.FC = () => {
           </li>
         </ul>
       </nav>
+      <h1>sanjay</h1>
     </header>
-    // <h1>sanjay</h1>
   );
 };
 
